@@ -1,0 +1,61 @@
+/* Styling container utama */
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Layout anggota tim dalam baris */
+.team-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Styling untuk setiap anggota tim */
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+  width: 15%;
+  margin: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling foto anggota */
+.member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styling nama anggota */
+.member-name {
+  font-family: 'gijsuy-gijsuy';
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fe3989;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}

@@ -1,0 +1,222 @@
+/* disini muali media query */
+@media (max-width: 968px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  #home,
+  #vision,
+  #services {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    height: auto;
+  }
+
+  .slogan {
+    margin-left: 0;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .slogan h1 {
+    font-size: 3rem;
+  }
+
+  .custom-image {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .about-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission,
+  .vision {
+    max-width: 100%;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .description-main {
+    max-height: none; /* Updated for compatibility */
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr); /* Changed to match desktop view */
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .portfolio-item {
+    height: auto; /* Adjusted to allow flexibility */
+  }
+}
+
+@media (max-width: 428px) {
+  body {
+    background-size: 100%;
+  }
+  .slogan h1 {
+    font-size: 2rem;
+  }
+
+  .slogan p {
+    font-size: 1rem;
+  }
+
+  .custom-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  .description-main {
+    padding: 1rem;
+  }
+
+  .mission,
+  .vision {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main-portoflio h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 4.75rem;
+    margin-top: 10rem;
+  }
+  .portfolio-grid {
+    padding: 1rem;
+  }
+
+  .portfolio-item {
+    height: 120px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .wrapper .page h2 {
+    font-size: 1em; 
+}  
+  .service-content {
+  font-size: 20px; 
+  padding: 1rem; 
+    }
+}
+@media (min-width: 360px)
+{
+  .member {
+    width: 45%;
+}
+  .wrapper .page h2 {
+    font-size: 1.5em; 
+}  
+  .service-content {
+  font-size: 20px; 
+  padding: 1rem; 
+    }
+  }
+
+
+
+@media (min-width: 460px) {
+  .member {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .member {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .member {
+    width: 17%;
+  }
+}
+@media (max-width: 414px) {
+  body {
+    background-size: 100%;
+  }
+  .slogan h1 {
+    font-size: 2rem;
+  }
+
+  .slogan p {
+    font-size: 1rem;
+  }
+
+  .custom-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  .description-main {
+    padding: 1rem;
+  }
+
+  .mission,
+  .vision {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main-portoflio h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-top: 10rem;
+  }
+  .portfolio-grid {
+    padding: 1rem;
+  }
+
+  .portfolio-item {
+    height: 120px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .wrapper .page h2 {
+    font-size: 1em; 
+}  
+  .service-content {
+  font-size: 20px; 
+  padding: 1rem; 
+    }
+}
